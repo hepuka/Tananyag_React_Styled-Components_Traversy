@@ -10,7 +10,7 @@ export const StyledHeader = styled.header`
 
   /*app.js-ben deklarált globális theme hivatkozása*/
   background-color: ${({ theme }) => theme.colors.header};
-  padding: 40px 0;
+  padding: 40px 20px;
 
   /*   h1 {
     color: red;
